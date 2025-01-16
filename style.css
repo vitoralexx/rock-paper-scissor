@@ -12,6 +12,13 @@ h1 {
   color: hsl(0, 0%, 20%);
 }
 
+#displayContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+  width: 650px;
+}
+
 .choices {
   margin-bottom: 30px;
 }

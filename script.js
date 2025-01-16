@@ -9,11 +9,9 @@ let computerScore = 0;
 
 function playGame(playerChoice) {
 
-  // choose between options
   const computerChoice = choices[Math.floor(Math.random() * 3)];
   let result = "";
 
-  // is playerChoice equal to computer choice?
   if(playerChoice === computerChoice) {
     result = "IT'S A TIE!"
   } else {
